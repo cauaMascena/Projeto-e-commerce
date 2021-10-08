@@ -31,6 +31,7 @@
             <main>
                 <form class="form-categoria" method="POST" action="./acoes.php">
                     <input type="hidden" name="acao" value="editar" />
+                    <input type="hidden" name="id" value="<?php echo $categoria['id'];?>" />
                     <h1 class="span2">Editar categorias</h1>
                     <ul>
                         <?php

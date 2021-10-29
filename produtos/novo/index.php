@@ -1,6 +1,6 @@
 <?php
 
-  session_start();
+  // session_start();
 
   /*
   CONEXÃO COM O BANCO DE DADOS
